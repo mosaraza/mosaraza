@@ -4,7 +4,7 @@ I've spent the last 7 years building production systems from the first whiteboar
 
 I get in before there's a spec, work out the architecture with the engineers, and stay in it until users rely on it. Architecture call in the morning, users in the afternoon, roadmap at night.
 
-Today I lead product and engineering at [Voir Labs](https://www.voirlabs.io), an AI-first studio, with a team of 10 to 13 across AI, Web3, full-stack, Solana/Rust, design and DevOps. Before that, I ran a 15 to 20 engineer unit at Xord shipping DeFi protocols. I hire, run 1:1s and performance reviews, and own delivery from technical scoping to launch.
+Today I lead product and engineering at [@voirlabs](https://github.com/voirlabs), an AI-first studio, with a team of 10 to 13 across AI, Web3, full-stack, Solana/Rust, design and DevOps. Before that, I ran a 15 to 20 engineer unit at Xord shipping DeFi protocols. I hire, run 1:1s and performance reviews, and own delivery from technical scoping to launch.
 
 **⚙️ What I architect and deliver**
 - **Multi-agent systems:** orchestrator and pod topologies, regional agents, approval-gated autonomy, up to 10 agents live across internal and client systems
@@ -33,20 +33,20 @@ Today I lead product and engineering at [Voir Labs](https://www.voirlabs.io), an
 
 | Project | Architecture and scope | My role |
 |---|---|---|
-| [A51 Finance](https://defillama.com/protocol/a51-finance) | Automated liquidity management for AMM LPs on EVM and Starknet (Ekubo). Staking, on-chain governance and $A51 tokenomics (fixed supply, revenue share, LP incentives). Contracts shipped with full test coverage, audited by Hashlock and Cyberscope. 1st place Starknet hackathon, DevCon Thailand 2024. | Technical Product Manager, team of 5 |
-| Spock Analytics | Web3 analytics platform. Airflow ETL across Ethereum, Optimism, Arbitrum, Fantom and Polygon, a token price service and off-chain ingestion; npm SDK ([spock-sdk](https://github.com/Spock-Analytics/spock-sdk)) and an adapter framework ([spock-adapters](https://github.com/Spock-Analytics/spock-adapters), 21 protocol adapters) so protocol teams write integrations against a stable core. | Head of Product Development, team of 6 plus a PM |
-| [HashHunter](https://hashhunter.app/) | Natural-language trading agent on Telegram: swaps, bridges and cross-chain transfers across Solana and EVM via Phantom and MetaMask, multi-chain adapters, x402 payments, MEV protection and a refund fallback. | Delivery lead |
-| [Heaa Protocol](https://heaa.xyz/) | Telegram-native DeFi bot: LLM intent parsing into swaps, bridges and transfers on Solana and EVM with real-time transaction feedback. Rust, TypeScript and Python. | Blockchain project manager |
-| [Mesh Protocol](https://meshprotocol.xyz/) | Solana DEX aggregator over Raydium, Orca and Meteora using custom CPI flows and zero-copy PDA accounts in Anchor; SPL staking with lock-ups and reward distribution; $MESH tokenomics. | Technical Product Manager, async team across Rust, Anchor and frontend |
-| [Kerberus Sentinel3](https://www.kerberus.com/) | Core Solana infrastructure for a scam-protection product: real-time transaction parsing and anomaly classification with Raydium, Meteora and Pump.fun decoders on Yellowstone gRPC streams at sub-3 ms. | Technical project lead |
-| [Volufy](https://t.me/Volufy_io) | Market-making and volume engine across Raydium, Meteora, Pump.fun and Uniswap on Solana, Base and BSC; Jito bundling on Solana and automated strategy triggers. | Delivery lead |
-| [Pumpkin](https://x.com/pumpkindotfun) | Solana token launchpad: bonding curves, fee sharing and staking. Concept to mainnet in six weeks. | Development manager |
-| [Sparrow Finance](https://www.sparrowfinance.xyz/) | spSTRK liquid staking contract and SDK on Starknet, in Cairo. | Project manager |
+| [A51 Finance](https://defillama.com/protocol/a51-finance) | Automated liquidity management for AMM LPs on EVM and Starknet (Ekubo). Staking, on-chain governance and $A51 tokenomics (fixed supply, revenue share, LP incentives). Contracts shipped with full test coverage, audited by Hashlock and Cyberscope. 1st place Starknet hackathon, DevCon Thailand 2024. | Technical Product Manager, team of 6 |
+| [Spock Analytics](https://spockanalytics.xyz/) | Web3 analytics platform ([live demo](https://spock-analytics-demo-d6c77.web.app/explore/wallet-connections), [GitHub](https://github.com/Spock-Analytics)). Airflow ETL across Ethereum, Optimism, Arbitrum, Fantom and Polygon, a token price service and off-chain ingestion; npm SDK ([spock-sdk](https://github.com/Spock-Analytics/spock-sdk)) and an adapter framework ([spock-adapters](https://github.com/Spock-Analytics/spock-adapters), 21 protocol adapters) so protocol teams write integrations against a stable core. | Head of Product Development, team of 6 plus a PM |
+| [HashHunter](https://hashhunter.app/) | Natural-language trading agent on Telegram: swaps, bridges and cross-chain transfers across Solana and EVM via Phantom and MetaMask, multi-chain adapters, x402 payments, MEV protection and a refund fallback. | AI Delivery Lead |
+| [Heaa Protocol](https://heaa.xyz/) | Telegram-native DeFi bot: LLM intent parsing into swaps, bridges and transfers on Solana and EVM with real-time transaction feedback. Rust, TypeScript and Python. | Blockchain Lead |
+| [Mesh Protocol](https://meshprotocol.xyz/) | Solana DEX aggregator over Raydium, Orca and Meteora using custom CPI flows and zero-copy PDA accounts in Anchor; SPL staking with lock-ups and reward distribution; $MESH tokenomics. | Technical DeFi Product Manager, async team across Rust, Anchor and frontend |
+| [Kerberus Sentinel3](https://www.kerberus.com/) | Core Solana infrastructure for a scam-protection product: real-time transaction parsing and anomaly classification with Raydium, Meteora and Pump.fun decoders on Yellowstone gRPC streams at sub-3 ms. | Technical Project Lead |
+| [Volufy](https://t.me/Volufy_io) | Market-making and volume engine across Raydium, Meteora, Pump.fun and Uniswap on Solana, Base and BSC; Jito bundling on Solana and automated strategy triggers. | Web3 Product Lead |
+| [Pumpkin](https://x.com/pumpkindotfun) | Solana token launchpad: bonding curves, fee sharing and staking. Concept to mainnet in six weeks. | DeFi Development manager |
+| [Sparrow Finance](https://www.sparrowfinance.xyz/) | spSTRK liquid staking contract and SDK on Starknet, in Cairo. | Technical Project Manager |
 | [SHIELD](https://github.com/xorddotcom/SHIELD) | Open-source Circom ZK development framework and CLI (npm `@xorddotcom/shield`). | Shipped at Xord |
-| [Musafir](https://musafir.gitbook.io/musafir/) | Cross-chain EVM bridge protocol on EigenLayer. | Research lead: architecture concept and feasibility |
-| APOC NFT | Lore-based PFP collection on Casper: whitelist minting, staking and metadata reveals. | Project engineering manager |
-| Noshify | Web3 food delivery with on-chain payments in Noshify tokens. | Technical Product Manager |
-| Lokr, Zygnus, TrustSwap | DeFi client products delivered through Xord. | Technical Project Manager |
+| [Musafir](https://musafir.gitbook.io/musafir/) | Cross-chain EVM bridge protocol on EigenLayer. | Research Lead: architecture concept and feasibility |
+| APOC NFT | Lore-based PFP collection on Casper: whitelist minting, staking and metadata reveals. | Project Engineering Manager |
+| Noshify | Web3 food delivery with on-chain payments in Noshify tokens. | Web3 Technical Product Manager |
+| Lokr, Zygnus, TrustSwap | DeFi client products delivered through Xord. | DeFi Technical Project Manager |
 | PhoenixDAO, BlockZero Labs (Flashstake, XIO), Numio wallet | dApps, instant-yield staking platforms and an Android/iOS Web3 wallet. | Led QA, security testing and test automation frameworks |
 
 ---
